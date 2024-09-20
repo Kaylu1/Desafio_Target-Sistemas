@@ -5,7 +5,6 @@ public class Fibonacci {
         Scanner sc = new Scanner(System.in);
         System.out.print("Informe um número para verificar se pertence à sequência de Fibonacci: ");
         int num = sc.nextInt();
-        sc.close();
 
         if (isFibonacci(num)) {
             System.out.println(num + " pertence à sequência de Fibonacci.");
