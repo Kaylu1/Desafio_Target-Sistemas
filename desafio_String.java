@@ -5,7 +5,6 @@ public class desafio_String {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite uma string: ");
         String input = sc.nextLine();
-        sc.close();
 
         int count = contarLetraA(input);
         System.out.println("A letra 'a' aparece " + count + " vezes na string.");
